@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+    
+ }
+body{
+    /* background-color: rgb(232,232,232); */
+    /* background-color: rgb(255, 255, 255); */
+    background-color: whitesmoke;
+}
+.body{
+    background-color: rgb(240,240,240);
+}
+.tsflogo{
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    position: relative;
+    top: 100px;
+}
+.forcenter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.mainstart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+}
+ header{    
+    /* background-color: azure; */
+    background-color: #333;
+ }
+ .logo_cont{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: white;
+    font-size: 35px;
+    /* margin: 0px 37px; */
+}
+.logo_cont2{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: white;
+    font-size: 30px;
+    line-height: 6px;
+    letter-spacing: 0.047em;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0px 25px;
+    animation: color3 4s ease-in 0s infinite alternate-reverse ;
+  
+    /* margin: 0px 37px; */
+}
+.logo{
+    width: 40px;
+    padding: 0px 25px;
+    animation: Animation0 5s ease-in 0s infinite  ;
+}
+@keyframes Animation0 {
+    0%{
+        transform: rotateZ(90deg);
+    }
+    50%{
+        transform: rotateZ(180deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+    
+}
+.logo2{
+    width: 30px;
+    padding: 0px 0px;
+    animation: Animation 5s ease-in 0s infinite  ;
+}
+@keyframes Animation {
+    0%{
+        transform: rotateZ(90deg);
+    }
+    50%{
+        transform: rotateZ(180deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+    
+}
+@keyframes color3 {
+    0%{
+        color:rgb(255,207, 84) ;
+    }
+    50%{
+        color:rgb(228, 195, 112);
+    }
+    100%{
+        color:rgb(255, 255, 255);
+    }
+    
+}
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Yaldevi', sans-serif;
+ }
+ nav ul li{
+    list-style: none;
+    margin: 0px 15px;
+    padding: 0px 30px;
+    height: 25px;
+    
+    
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    /* height: 8.40vh; */
+    /* background-color: azure; */
+    
+}
+nav{
+    display: flex;
+}
+.nav2{
+    height: 45px;
+}
+nav ul li a:hover{
+    color: rgb(255,207, 84);
+    /* background-color: rgb(217, 243, 243); */
+
+}
+.money:hover{
+    color: rgb(212, 212, 212);
+}
+/* .transaction:hover{
+    color: rgb(255,207, 84);
+} */
+.search1{
+    display: flex;
+    align-items: center;
+}
+.search2{
+    display: flex;
+    align-items: center;
+}
+.searchbar1{
+    width: 20vw;
+    height: 3.5vh;
+    margin: 0px 25px;
+    padding: 0px 16px;
+    border-radius: 5px;
+}
+.searchbar2{
+    width: 20vw;
+    height: 3.5vh;
+    margin: 0px 25px;
+    padding: 0px 16px;
+    border-radius: 5px;
+}
+.btn1{
+    height: 20px;
+    cursor: pointer;
+    margin: 0px -5px;
+    background-color: var(--main-bg-color);
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-family: 'Yaldevi', sans-serif;
+}
+.btn2{
+    height: 20px;
+    cursor: pointer;
+    margin: 0px -5px;
+    background-color: var(--main-bg-color);
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-family: 'Yaldevi', sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 75px;
+    background-color: #333;
+    color: white;
+    margin: 0px 60px;
+    font-family: 'Yaldevi', sans-serif;
+}
+main{
+    min-height: 100vh;
+   
+}
+.Table-row1{
+    background-color: rgb(184,184,184);
+}
+.Table-row3{
+    background-color: rgb(215,215,215);
+}
+.Table-row2{
+    background-color: rgb(184,184,184);
+}
+.Table-row4{
+    background-color: rgb(215,215,215);
+}
+.container0{
+    text-align: center;
+}
+footer{
+    background-color:#333;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 30vh;
+    cursor: pointer;
+}
+.fakefooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer1{
+    background-color:#333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    cursor: pointer;
+}
+.flex-all-center{
+    font-family: 'Yaldevi', sans-serif;
+}
+.container{
+    text-align: center;
+    margin: 30px 0px;
+    
+    
+}
+.me{
+    font-size: 20px;
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+    
+}
+.blogcontainer{
+    display: inline-flex;
+    justify-content: center;
+    margin: 300px 0px;
+    margin-top: 50px;
+    width: 100%;
+}
+.acct{
+   width: 180px;
+   text-align: center;
+    font-weight: 400;
+    font-family: 'Yaldevi', sans-serif;
+    padding: 0px 60px;
+    cursor: pointer;
+}
+.acct1{
+    width: 260px;
+    text-align: start;
+     font-weight: 400;
+     font-family: 'Yaldevi', sans-serif;
+     padding: 0px 45px;
+     cursor: pointer;
+     font-size: 20px;
+     font-style: bold;
+     /* border: 0.5px solid black; */
+     border-width: 1px 1px 1px 0px;
+     border-style: solid;
+     border-color: rgb(161, 155, 155);
+     position: relative;
+     top: -115px;
+     background-color: rgb(255, 255, 255);
+ }
+ .par{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+ }
+.acct:hover{
+    text-decoration: underline;
+}
+.acct1:hover{
+    background-color: rgb(216, 215, 215);
+}
+.infocontainer{
+    display: flex;
+    justify-content: center;
+    margin: -120px 0px;
+    
+}
+.img5{
+    display: flex;
+    justify-content: center;
+    /* width: 1400px; */
+    position: relative;
+    bottom: 50px;
+}
+.imgcontainer{
+    position: relative;
+    text-align: center;
+    margin: 80px 0px;
+
+}
+.text1{
+    position: absolute;
+    bottom: 298px;
+    right: 300px;
+    cursor: pointer;
+    font-size: 25px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-weight: 600;
+
+}
+.text2{
+    position: absolute;
+    bottom: 253px;
+    right: 170px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 750;
+    font-size: 15px;
+    cursor: pointer;
+}
+.text3{
+    position: absolute;
+    bottom: 200px;
+    right: 452px;
+    
+}
+.textbtn3{
+    background-color: black;
+    color: white;
+    font-family: 'Yaldevi', sans-serif;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+.stat1{
+    display: flex;
+    flex-direction:column ;
+        justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    border-width: 1px 1px 1px 1px;
+     border-style: solid;
+     border-color: rgb(161, 155, 155);
+     margin: 20px auto;
+     background-color: rgb(230, 230, 230);
+}
+.heading2{
+    font-family: 'Yaldevi', sans-serif; 
+    font-size: 30px;
+    animation: animhead 1s ease-in 0s infinite alternate-reverse ;
+}
+.heading6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+@keyframes animhead {
+    0%{
+       color: rgb(160, 149, 149);
+    }
+    50%{
+        color: rgb(114, 107, 107);
+    }
+    100%{
+        color: black;
+    }
+    
+}
+.footercont ul{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin: 0px 0px;
+    
+    
+}
+.footercont ul li a:hover{
+    text-decoration: underline;
+    color: rgb(255,207, 84);
+}
+.footercont ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footercont li{
+    padding: 10px 65px;
+}
+.my-info {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 25%;
+    text-align: left;
+    margin: 18px auto;
+    font-weight: bolder;
+    width: 350px;
+    
+}
+.static-container8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

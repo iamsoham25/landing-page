@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.static8 {
+    font-family: 'Yaldevi', sans-serif;;
+    font-size: 20px;
+    text-align: center;
+    padding-top:10em;
+  }
+  .forpara{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+  }
+  .typewrite{ 
+      color: rgb(0, 0, 0);; 
+      text-decoration: none;
+      font-size: 29px;
+      font-weight: 590;
+    position: relative;
+    top: -98px;
+    }
+    .mainstart{
+      /* height: 243px; */
+      background-color: rgb(230, 230, 230);
+    
+    }
+    .register8{
+      background-color: #333;
+      color: white;
+      width: 80px;
+      height: 40px;
+      font-family: 'Yaldevi', sans-serif;
+      font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    }
+    .contactus{
+      background-color: #333;
+      color: white;
+      width: 90px;
+      height: 40px;
+      font-family: 'Yaldevi', sans-serif;
+      font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    }
+    .register8:hover{
+      color: rgb(255,207, 84);
+    }
+    .contactus:hover{
+      color: rgb(255,207, 84);
+    }
+    .btn8{
+      position: relative;
+      bottom: 60px;
+    }
